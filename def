@@ -1,0 +1,14 @@
+def find_max(a,x,s):
+    if x>=s or x>=a:
+       print(x)
+    elif s>=x or s>=a:
+        print(s)
+    else: a>=x or a>=s
+    print(s)
+x = int(input("enter the num"))
+s = int(input("enter the second num"))
+a = int(input("enter the third num"))
+print(find_max(a,x,s))
+   
+
+
